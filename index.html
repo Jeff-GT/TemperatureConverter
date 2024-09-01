@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scripts/styles.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+        <h3>Background Color of the Result Will Change Color Based on the Temperature Value</h3>
+    </header> 
+    <main>
+        <div class="temp-Type">
+            <p>How would you like to convert?</p>
+            <button onclick="celToFah()">°C to °F</button>
+            <button onclick="fahToCel()">°F to °C</button>
+        </div>
+
+        <div id="result" class="temp-result">
+        </div>
+        
+        <script src="/scripts/functions.js"></script>
+    </main>
+</body>
+</html>
